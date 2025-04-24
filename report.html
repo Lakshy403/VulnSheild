@@ -1,0 +1,100 @@
+
+    <html>
+    <head><title>Scan Report</title></head>
+    <body style="font-family: Arial;">
+    <h1>VulnShield - Web Vulnerability Scan Report</h1>
+    <pre>{
+    "XSS": [
+        {
+            "http://zero.webappsecurity.com/index.html": "No XSS detected"
+        },
+        {
+            "http://zero.webappsecurity.com#carousel": "No XSS detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No XSS detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No XSS detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html#carousel": "No XSS detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html": "No XSS detected"
+        }
+    ],
+    "JS-Based XSS": [
+        {
+            "http://zero.webappsecurity.com/index.html": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        },
+        {
+            "http://zero.webappsecurity.com#carousel": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        },
+        {
+            "http://zero.webappsecurity.com": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        },
+        {
+            "http://zero.webappsecurity.com": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html#carousel": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html": "JS-XSS scan failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'"
+        }
+    ],
+    "SQL Injection": [
+        {
+            "http://zero.webappsecurity.com/index.html": "No SQL Injection detected"
+        },
+        {
+            "http://zero.webappsecurity.com#carousel": "No SQL Injection detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No SQL Injection detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No SQL Injection detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html#carousel": "No SQL Injection detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html": "No SQL Injection detected"
+        }
+    ],
+    "LFI": [
+        {
+            "http://zero.webappsecurity.com/index.html": "No LFI detected"
+        },
+        {
+            "http://zero.webappsecurity.com#carousel": "No LFI detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No LFI detected"
+        },
+        {
+            "http://zero.webappsecurity.com": "No LFI detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html#carousel": "No LFI detected"
+        },
+        {
+            "http://zero.webappsecurity.com/index.html": "No LFI detected"
+        }
+    ],
+    "Open Ports": {
+        "Ports": {
+            "80": "http",
+            "443": "https",
+            "8080": "http-proxy"
+        }
+    },
+    "Weak Authentication": {
+        "Status": "Weak password found: 123456"
+    }
+}</pre>
+    </body>
+    </html>
+    
